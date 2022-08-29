@@ -6,6 +6,7 @@
 header {
     background-color: aqua;
     padding-bottom: 50px;
+    font-weight: bold;
 }
 header h1 {
     display:inline-block;
@@ -19,8 +20,8 @@ nav h3{
     margin-right: 20px;
     float: right;
     font-size: 25px;
-    background-color: skyblue;
     text-decoration: underline;
+    color: navy;
 }
 .description {
     display: block;
@@ -28,6 +29,8 @@ nav h3{
     text-align: right;
     padding: 100px 30px 0px 0px;
     font-size: 40px;
+    font-weight: bold;
+
 }
 main {
     background-color: pink;
@@ -36,6 +39,7 @@ aside {
     display: inline-flex;
     flex-direction: column;
     font-size: 40px;
+    font-weight: bold;
 
 }
 .aside-about {
@@ -54,6 +58,7 @@ aside {
     line-height: 100px;
 }
 .aboutme {
+    word-wrap: break-word;
     font-size: 20px;
     text-align: left;
     position: relative;
@@ -71,4 +76,8 @@ footer span {
     position: relative;
     bottom: 100px;
     margin: 30px;
+    font-size: 30px;
 }
+body{ 
+    overflow-x :hidden; 
+    } 
