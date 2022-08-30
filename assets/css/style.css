@@ -42,27 +42,30 @@ aside {
     font-weight: bold;
 
 }
-.aside-about {
+#aside-about {
     border-right: solid blue;
     margin: 30px;
     line-height: 100px;
 }
-.aside-work {
+#aside-work {
     border-right: solid blue;
     margin: 30px;
     line-height: 300px;
+    padding-top: 300px;
+    padding-bottom: 300px;
 }
-.aside-contact {
+#aside-contact {
     border-right: solid blue;
     margin: 30px;
     line-height: 100px;
+    
 }
 .aboutme {
     word-wrap: break-word;
     font-size: 20px;
     text-align: left;
     position: relative;
-    bottom: 625px;
+    bottom: 1225px;
     left: 300px;
     
 }
@@ -78,6 +81,74 @@ footer span {
     margin: 30px;
     font-size: 30px;
 }
+.work1 {
+    display:flex;
+    position: relative;
+    left: 300px;
+    bottom: 1100px;
+}
+
+.work2 {
+    display: flex;
+    position: relative;
+    left: 300px;
+    bottom: 1075px;
+}
+.work3 {
+    display: flex;
+    position: relative;
+    left: 300px;
+    bottom: 1050px;
+}
+.work4 {
+    display: flex;
+    position: relative;
+    left: 825px;
+    bottom: 1475px;
+}
+.work4 {
+    display: flex;
+    position: relative;
+    left: 825px;
+    bottom: 1475px;
+}
+.work5 {
+    display: flex;
+    position: relative;
+    left: 825px;
+    bottom: 1450px;
+}
+footer {
+    display: flex;
+    position: relative;
+    left: 300px;
+    bottom: 1300px;
+    margin: 0%;
+}
+.work1:hover {
+    opacity: .5;
+}
+.work2:hover {
+    opacity: .5;
+}
+.work3:hover {
+    opacity: .5;
+}
+.work4:hover {
+    opacity: .5;
+}
+.work5:hover {
+    opacity: .5;
+}
 body{ 
     overflow-x :hidden; 
     } 
+@media only screen and (max-width: 768px) {
+
+        body * {
+           flex-direction: column;
+}
+    
+        p {
+        flex-basis: 0 10;
+}
